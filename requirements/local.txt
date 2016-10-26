@@ -1,0 +1,15 @@
+# Bleeding edge Django
+django==1.7.5
+
+
+# Models
+django-model-utils==2.6
+
+# Images
+Pillow==3.4.2
+
+# Threading
+futures
+
+# install beautiful soup
+beautifulsoup4
