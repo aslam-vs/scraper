@@ -1,19 +1,19 @@
 Scraper
 =========
 
-#1 Get meta tags from the <head> part in below-mentioned priority (so if a exists, forget about b and c)
+	1 Get meta tags from the head part in below-mentioned priority (so if a exists, forget about b and c)
 
-a. <meta content="Why Ford is Winning on the Social Web" data-page-subject="true" property="og:title" />
+	a. meta content="Why Ford is Winning on the Social Web" data-page-subject="true" property="og:title" 
 
-b. <meta content="Why Ford is Winning on the Social Web" data-page-subject="true" name="twitter:title" />
+	b. meta content="Why Ford is Winning on the Social Web" data-page-subject="true" name="twitter:title" 
 
-c. <title>Why Ford is Winning on the Social Web</title>
+	c. title Why Ford is Winning on the Social Web
 
-#2 From the <body> part, fetch all the images. With this, also find out the width and height of the image. (can use multi-threading to save time)
+	2 From the body part, fetch all the images. With this, also find out the width and height of the image. (can use multi-threading to save time)
 
-#3 A function to save all of this into the database.
+	3 A function to save all of this into the database.
 
-#4 Display the time taken to complete #1 and #2
+	4 Display the time taken to complete 1 and 2
 
 
 
