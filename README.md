@@ -32,14 +32,12 @@ Then install the requirements for your local development:-
 	pip install -r requirements/local.txt
 
 
-Then, create database and change DATABASES settings in settings.py:
-
 
 You can now run the usual Django migrate and runserver commands:
-cd src
-$ python manage.py makemigrations
-$ python manage.py migrate
-$ python manage.py runserver
+	cd src
+	$ python manage.py makemigrations
+	$ python manage.py migrate
+	$ python manage.py runserver
 
 
 
